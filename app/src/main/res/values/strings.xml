@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">AplicacionPrueba</string>
+    <string name="opcion1">Opcion 1</string>
+    <string name="opcion2">Opcion 2</string>
 </resources>
