@@ -20,7 +20,7 @@
         android:id="@+id/textView"
         android:layout_width="217dp"
         android:layout_height="118dp"
-        android:layout_marginTop="232dp"
+        android:layout_marginTop="108dp"
         android:background="#9FE3EC"
         android:text="Hola Mundo"
         android:textAlignment="center"
@@ -30,4 +30,16 @@
         app:layout_constraintHorizontal_bias="0.484"
         app:layout_constraintStart_toStartOf="@+id/button"
         app:layout_constraintTop_toBottomOf="@+id/button" />
+
+    <EditText
+        android:id="@+id/editNombre"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="124dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="@+id/textView"
+        app:layout_constraintHorizontal_bias="0.428"
+        app:layout_constraintStart_toStartOf="@+id/textView"
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
 </androidx.constraintlayout.widget.ConstraintLayout>
